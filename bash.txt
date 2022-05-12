@@ -1,0 +1,6 @@
+#cat m4 data file and pipe to script to find out how many lines there are.
+# cat Spruce_fingerprint_2017-03-10_16.48.olp.m4 | bash bash.txt
+
+awk '{  if($7-$6>=1000 && $11-$10>=1000){ awk_var++}}END{print awk_var}'
+
+# result shows that there are 63962895 lines where both sequeces have at least 1000 overlap.
