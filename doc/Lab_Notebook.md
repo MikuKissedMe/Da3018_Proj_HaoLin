@@ -5,3 +5,6 @@ Did som preperations for the project, also downloaded a "Large Text File Viewer"
 ### 2022/12/5
 Created "bash.txt", unix script for first assignment, put script and data file in same folder and use "cat Spruce_fingerprint_2017-03-10_16.48.olp.m4 | bash bash.txt" command to get result.
 Test result for first 10000 lines is 9967 lines, for all lines is 63962895 lines.
+
+### 2022/14/5
+Multiple changes made to earlier mentioned method, also created new .jar file for graph, solution details added to bash.txt and corresponding .java file.
