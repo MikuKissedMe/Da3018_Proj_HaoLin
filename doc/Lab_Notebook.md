@@ -8,3 +8,6 @@ Test result for first 10000 lines is 9967 lines, for all lines is 63962895 lines
 
 ### 2022/14/5
 Multiple changes made to earlier mentioned method, also created new .jar file for graph, solution details added to bash.txt and corresponding .java file.
+
+### 2022/15/5
+Almost done with assignment 1 and 2, need some help for running make_histogram.py with unix command, just nothing happens. Cosidering using DFS for graph travers and solving assignment 3 and 4.
