@@ -6,3 +6,5 @@ tail -n 1 converted.txt
 
 #use G_f_c.jar (Graph_from_converted.java) to creat graph.
 (tail -n 1 && head -n -1) converted.txt | java -jar G_f_c.jar
+
+python make_histogram.py
