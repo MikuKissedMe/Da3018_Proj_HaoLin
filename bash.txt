@@ -3,8 +3,6 @@
 cat Spruce_fingerprint_2017-03-10_16.48.olp.m4 | java -jar  Dataconvert.jar > converted.txt
 
 #last line in converted.txt shows total number of edges, for assignment 1.
-tail -n 1 converted.txt
-
 #use G_f_c.jar (Graph_from_converted.java) to creat graph.
 (tail -n 1 converted.txt && head -n -1 converted.txt) | java -jar -Xss1000m G_f_c.jar
 
