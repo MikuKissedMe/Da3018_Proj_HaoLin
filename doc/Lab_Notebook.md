@@ -11,3 +11,6 @@ Multiple changes made to earlier mentioned method, also created new .jar file fo
 
 ### 2022/15/5
 Almost done with assignment 1 and 2, need some help for running make_histogram.py with unix command, just nothing happens. Cosidering using DFS for graph travers and solving assignment 3 and 4.
+
+### 2022/17/5
+Have created and tested all method, worked out just fine, wrapping upp and getting started for the report.
