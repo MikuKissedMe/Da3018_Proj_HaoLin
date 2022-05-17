@@ -1,9 +1,14 @@
+
 import numpy as np
 from matplotlib import pyplot as plt
+
+#if cannot run in unix, should be run manully.
+#will read from file data_for_histogram.txt and creat the histogram as Node_degree_histogram.png
 
 with open("data_for_histogram.txt",'r') as h_in:
    raw_data = h_in.read()
 
+print("Creating histogram...")
 data = []
 for sizes in raw_data.split(","):
     data.append(int(sizes))
@@ -21,5 +26,5 @@ plt.yscale("log")
 
 plt.savefig('Node_degree_histogram.png')
 #print(len(data))
-print("The histogram is svaed as Node_degree_histogram.png")
+print("The histogram is saved as Node_degree_histogram.png.")
 plt.show()
