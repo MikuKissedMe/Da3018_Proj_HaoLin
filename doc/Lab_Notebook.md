@@ -14,3 +14,6 @@ Almost done with assignment 1 and 2, need some help for running make_histogram.p
 
 ### 2022/17/5
 Have created and tested all method, worked out just fine, wrapping upp and getting started for the report.
+
+### 2022/19/5
+Have now upploaded the report, done with the project now.
